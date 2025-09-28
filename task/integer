@@ -1,0 +1,80 @@
+//1
+let L = 345;
+let meters = Math.floor(L / 100);
+console.log(meters);
+
+//2
+let M = 2345;
+let tons = Math.floor(M / 1000);
+console.log(tons); 
+
+//3
+let fileSize = 3000;
+let kilobytes = Math.floor(fileSize / 1024);
+console.log(kilobytes); 
+
+//4
+let A = 25;
+let B = 4;
+let segments = Math.floor(A / B);
+console.log(segments); 
+
+//5
+let remainder = A % B;
+console.log(remainder); 
+
+
+
+//6
+let num = 47;
+let tens = Math.floor(num / 10);
+let units = num % 10;
+console.log(tens, units); 
+
+//7
+let sum = tens + units;
+let product = tens * units;
+console.log(sum, product);
+
+//8
+let swapped = units * 10 + tens;
+console.log(swapped); 
+
+//9
+let num3 = 725;
+let hundreds = Math.floor(num3 / 100);
+console.log(hundreds);
+
+//10
+let units3 = num3 % 10;
+let tens3 = Math.floor((num3 % 100) / 10);
+console.log(units3, tens3); 
+
+//11
+let sum3 = hundreds + tens3 + units3;
+let product3 = hundreds * tens3 * units3;
+console.log(sum3, product3); 
+
+//12
+let reversed = units3 * 100 + tens3 * 10 + hundreds;
+console.log(reversed); 
+
+//13
+let lastTwo = num3 % 100;
+let moved = lastTwo * 10 + hundreds;
+console.log(moved); 
+
+
+//14
+let num1 = 12;
+let units1 = num1 % 10;              
+let rest = Math.floor(num1 / 10);    
+
+//15
+let result = units1 * 100 + rest;
+console.log(result); 
+
+
+
+
+

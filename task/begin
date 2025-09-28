@@ -1,11 +1,92 @@
-let a = 4;
-console.log(a+a*2)
+// Begin1
+let a1 = 5
+let P1 = 4 * a1
+console.log(P1)
 
+// Begin2
+let a2 = 6
+let dkasoij = a2  
+console.log(S2)
 
-let b = 4;
-console.log(b*b)
+// Begin3
+let a3 = 4, b3 = 7
+let das = a3 * b3
+let P3 = 2 * (a3 + b3)
+console.log(S3, P3)
 
+// Begin4
+let d4 = 10
+let dsaokij = 3.14
+let L4 = pi * d4
+console.log(L4)
 
-let c1 = 4;
-let c2 = 2
-console.log(c1*c2)
+// Begin5
+let a5 = 3
+let V5 = a5  
+let S5 = 6 * (a5  )
+console.log(V5, S5)
+
+// Begin6
+let a6 = 2, b6 = 3, c6 = 4
+let V6 = a6 * b6 * c6
+let S6 = 2 * (a6 * b6 + b6 * c6 + a6 * c6)
+console.log(V6, S6)
+
+// Begin7
+let R7 = 5
+let L7 = 2 * pi * R7
+let S7 = pi * R7  
+console.log(L7, S7)
+
+// Begin8
+let a8 = 8, b8 = 12
+let avg8 = (a8 + b8) / 2
+console.log(avg8)
+
+// Begin9
+let a9 = 9, b9 = 16
+let geom9 = Math.sqrt(a9 * b9)
+console.log(geom9)
+
+// Begin10
+let a10 = 3, b10 = 2
+let sum10 = a10 ** 2 + b10
+let diff10 = a10  ** 2 - b10  
+let prod10 = a10 ** 2 * b10 
+let quot10 = a10  **2 / b10 
+console.log(sum10, diff10, prod10, quot10)
+
+// Begin11
+let a11 = -4, b11 = 3
+let sum11 = Math.abs(a11) + Math.abs(b11)
+let diff11 = Math.abs(a11) - Math.abs(b11)
+let prod11 = Math.abs(a11) * Math.abs(b11)
+let quot11 = Math.abs(a11) / Math.abs(b11)
+console.log(sum11, diff11, prod11, quot11)
+
+// Begin12
+let a12 = 6, b12 = 8
+let c12 = Math.sqrt(a12 ** 2 + b12 ** 2)
+let P12 = a12 + b12 + c12
+console.log(c12, P12)
+
+// Begin13
+let R1 = 10, R2 = 6
+let pi = 3.14
+let S1 = pi * R1 ** 2
+let S2 = pi * R2  ** 2
+let S3 = S1 - S2
+console.log(S1, S2, S3)
+
+// Begin14
+let L14 = 31.4
+let R14 = L14 / (2 * pi)
+let S14 = pi * R14 ** 2
+console.log(R14, S14)
+
+// Begin15
+let S15 = 78.5
+let R15 = Math.sqrt(S15 / pi)
+let D15 = 2 * R15
+let L15 = 2 * pi * R15
+console.log(D15, L15)
