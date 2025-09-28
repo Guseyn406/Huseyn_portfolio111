@@ -1,0 +1,11 @@
+let a = 4;
+console.log(a+a*2)
+
+
+let b = 4;
+console.log(b*b)
+
+
+let c1 = 4;
+let c2 = 2
+console.log(c1*c2)
