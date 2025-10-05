@@ -1,0 +1,12 @@
+let A = 5;
+let result = A > 0;
+console.log(result); 
+
+let A1 = 7;
+let result1 = A1 % 2 !== 0;
+console.log(result1); 
+
+let A3 = 5;
+let B = 2;
+let result3 = A3 > 2 && B <= 3;
+console.log(result3); // true
